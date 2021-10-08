@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 de Peliculas!</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+<link rel="stylesheet" href="/style.css">
+<script src="https://kit.fontawesome.com/9061f523a2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar " href="/index.html"><img class="logo" src="images/LogoEdy.png" alt="EdyRodriguezLogo" height="80px"/></a>
+        
+        </div>
+    </nav>
+    <div class="c-wrapper container">
+      <div id="carouselExampleControls" class="carousel slide text-center bg-secondary mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item  active ">
+            <img src="/images/LogoEdy.png" class="  img-fluid center-block" alt="..."  >
+          </div>
+          <div class="carousel-item">
+            <img src="/images/3_Idiots_carousel.jpg" class="  img-fluid center-block" alt="3 idiots"  >
+          </div>
+          
+          <div class="carousel-item">
+            <img src="/images/kfs carousel.png" class="  img-fluid center-block" alt="..." >
+          </div>
+          <div class="carousel-item">
+            <img src="/images/tlor carousel.jpg" class="  img-fluid center-block" alt="..." >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Deseas salir de la pagina e ir a los detalles de 3 idiots?</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="/3idiots.html" class="btn btn-primary">Ir</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 mb-5" >
+        <div class=" row">
+            <div class=" col-md-4 col-sm-12 mb-2">
+                <div class="card content-fluid" >
+                    <img class="card-img-top" src="/images/3 idiosts.jpg" alt="Card image cap" height="300">
+                    <div class="card-body">
+                      <h5 class="card-title">3 idiots</h5>
+                      <p class="card-text">Mi Pelicula favorita, lo tiene todo, comedia, canciones y una trama de lo mejor que hay!</p>
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Ir a detalles
+                      </button>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-12 mb-2">
+                <div class="card " >
+                    <img class="card-img-top" src="/images/kfs card.jpg" alt="Card image cap" height="300">
+                    <div class="card-body">
+                      <h5 class="card-title">It's kind of a funny story</h5>
+                      <p class="card-text">Muy buena historia, comedia, trama y actores para complementar</p>
+                      <a href="/kfs.html" class="btn btn-primary">Ir a detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-4 col-sm-12 mb-2">
+                <div class="card " >
+                    <img class="card-img-top" src="/images/tlor card.jpg" alt="Card image cap" height="300">
+                    <div class="card-body">
+                      <h5 class="card-title">The Lord Of the rings</h5>
+                      <p class="card-text">No podia decidir solo 1 de estas hermosas peliculas, asi que aqui esta la trilogia!!</p>
+                      <a href="#" class="btn btn-primary justify-content-center">Ir a detalles</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class=" bg-dark " >
+      <div class="container">
+        <div class="row justify-content-between">
+
+            <div class="col-lg-4 mb-lg-0 text-center mt-2">
+                <h4 class="text-uppercase footer-text fw-bold ">Localizacion</h4>
+                <p class="lead footer-text fw-bolder">
+                    Mi casita!
+                    20 de noviembre 93
+                </p>
+            </div>
+
+            <div class="col-lg-4 mb-7 text-center mb-lg-0 mt-2">
+                <h4 class="text-uppercase footer-text fw-bold">Redes</h4>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
+                <br>
+            </div>
+            
+        </div>
+        
+    </div>
+    <p class="footer-text fs-5 fw-bold text-center p-2">Todos los derechos reservados S.A, de C.V</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    </body>
+    </html>

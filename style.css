@@ -1,0 +1,24 @@
+.carousel-inner > .item > img {
+    margin: 0 auto;
+  }
+  .textocolor{
+    color: #EEEEEE;
+    
+}
+.footer-text{
+    color: #334257;
+    
+}
+body{
+    background-color: #334257;
+}
+.bgnav{
+    background-color: #EEEEEE;
+
+}
+footer{
+    position: absolute;
+    width: 100%;
+    padding-bottom: 0px;
+}
+
